@@ -18,20 +18,23 @@
 
 .link-box {
   width: 100vw;
-  padding: 120px;
+  padding: 60px;
   display: grid;
   gap: 40px;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   height: 90%;
 }
 .link-box__element {
-  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
   text-decoration: none;
   text-align: center;
-  display: block;
+  min-height: 160px;
   border: 1px solid #293D32;
   border-radius: 10px;
-  padding: 80px 60px;
+  padding: 0 60px;
   box-shadow: 8px 8px 16px #293D32;
   transition: transform 0.3s ease;
 }
@@ -45,19 +48,33 @@
   background-color: #BF9F73;
 }
 .link-box__element_marketing {
-  background-color: #BF9F73;
+  background-color: #463620;
+}
+.link-box__element_amo {
+  background-color: #242F34;
+}
+.link-box__element_tech-dir {
+  background-color: #293D32;
+}
+.link-box__element_kanban {
+  background-color: #527A63;
 }
 .link-box__element:hover {
   transform: scale(1.03);
 }
 
+.color-light {
+  color: #DFCFB9;
+}
+
 @media (max-width: 767px) {
   .link-box {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding: 30px;
+    min-height: 180px;
   }
   .link-box__element {
-    font-size: 24px;
-    padding: 60px 30px;
+    font-size: 22px;
+    padding: 40px 30px;
   }
 }/*# sourceMappingURL=style.css.map */
