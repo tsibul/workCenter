@@ -48,10 +48,10 @@
   background-color: #BF9F73;
 }
 .link-box__element_marketing {
-  background-color: #463620;
+  background-color: #242F34;
 }
 .link-box__element_amo {
-  background-color: #242F34;
+  background-color: #463620;
 }
 .link-box__element_tech-dir {
   background-color: #293D32;
@@ -77,4 +77,6 @@
     font-size: 22px;
     padding: 40px 30px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
